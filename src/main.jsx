@@ -1,10 +1,31 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Header from './Header.jsx'
-import {Section, Footer} from './Header.jsx'
 import './index.css'
+import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import Principal from './routes/principal.jsx'
+import {Store} from './routes/store.jsx'
+import Login from "./routes/login";
+import Register from './routes/register'
 
-
+const routers = createBrowserRouter([
+  {
+    path: "/", 
+    element: <Principal />
+  },
+  {
+    path: "/login",
+    element: <Login/>
+  },
+  {
+    path: "/store",
+     element: <Store />
+    //  <Store />
+  },
+  {
+    path: "/register",
+    element:<Register/>,
+  }
+])
 
 
 
@@ -12,9 +33,7 @@ import './index.css'
 ReactDOM.createRoot(document.getElementById('container-general')).render(
   <React.StrictMode>
    
-    <Header />
-    <Section />
-    <Footer/>
+    <RouterProvider router={routers}/>
 
   </React.StrictMode>,
 )

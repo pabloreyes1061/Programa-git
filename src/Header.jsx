@@ -1,4 +1,4 @@
-
+//////////////////////ERROR
 import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 import './Header.css'
@@ -14,19 +14,39 @@ function Header() {
 
               
             <ul className="menu">
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Tienda</a></li>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/store">Tienda</a></li>
                 <li><a href="">Contacto</a></li>
-                <li><a href="">Registro</a></li>
+                <li><a href="/login">Registros</a></li>
             </ul>
-        </nav>
+      </nav>
         
-        <div className="header__div glass-efect"><h2>Lino blanco </h2><a href="../loggin.html">Comprar ahora</a></div>
+            <div className="header__div glass-efect"><h2>Lino blanco </h2><a href="../loggin.html">Comprar ahora</a></div>
     </header>
   )
 }
 
 export default Header;
+
+
+
+
+export function Navbar(){
+return(
+        <nav className="nav">
+            <div className="logo">
+            <img src={reactLogo} className="logo react" alt="React logo" /></div>
+
+              
+            <ul className="menu">
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/store">Tienda</a></li>
+                <li><a href="">Contacto</a></li>
+                <li><a href="/login">Registro</a></li>
+            </ul>
+        </nav>
+        )
+}        
 
 
 export function Section() {

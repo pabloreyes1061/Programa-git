@@ -1,28 +1,28 @@
-const vehicleOne = {
-    brand: 'Ford',
-    model: 'Mustang',
-    type: 'car',
-    year: 2021, 
-    color: 'red'
-  }
+// const vehicleOne = {
+//     brand: 'Ford',
+//     model: 'Mustang',
+//     type: 'car',
+//     year: 2021, 
+//     color: 'red'
+//   }
   
   
   
-  function myVehicle(type, color, brand, model,year) {
-    const message = [ type, color , brand ,  model ,year]
-    return message
-  }
+//   function myVehicle(type, color, brand, model,year) {
+//     const message = [ type, color , brand ,  model ,year]
+//     return message
+//   }
 
 
-  const message = myVehicle(vehicleOne.type, vehicleOne.color, vehicleOne.brand, vehicleOne.model, vehicleOne.year);
+//   const message = myVehicle(vehicleOne.type, vehicleOne.color, vehicleOne.brand, vehicleOne.model, vehicleOne.year);
   
-  let [a,b,c,d,e]= message
+//   let [a,b,c,d,e]= message
   
 
 
 
-   console.log(message);
-   console.log(a)
+//    console.log(message);
+//    console.log(a)
 // let a = 1
 // let b = 2
 

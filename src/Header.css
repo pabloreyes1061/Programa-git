@@ -107,7 +107,7 @@
 }
 .glass-efect{
   
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(10px);
 }
 
@@ -173,9 +173,7 @@ header{
 
 }
 
-.fotos_modelos{
-  height: 200px;
-}
+
 
 /* ----------------------------sectioon-------------------------------------------- */
 

@@ -76,3 +76,140 @@ button:focus-visible {
 body{
   font-family: 'Forum', cursive;
 }
+
+.container-tienda{
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-bottom: 100px;
+  width: 80%;
+  /* height: 800px; */
+  /* background-color: black; */
+  color: azure;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: #a7470b;
+}
+
+
+
+.div-card{
+  width: 300px;
+  height: auto;
+  background-color: #ffca75;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+ 
+}
+
+.div-card .card-title{
+  margin-top: 10px;
+}
+
+.div-card .card-descripcion{
+  margin-bottom: 20px;
+}
+
+.div-card h3{
+  margin-top: 10px;
+}
+
+.div-card img{
+  max-width: 90%;
+  max-height: 90%;
+  display: block; /* Esto ayuda a eliminar cualquier espacio adicional debajo de la imagen */
+
+}
+
+/* errooorrrrrrrrrrrrr */
+.cbrn{
+  font-size: 77px;
+}
+/* errooorrrrrrrrrrrrr */
+
+/* formulario */
+
+.div-formulario{
+  height: 120vh;
+  background-image: url(/img/imglog.png);
+  background-size: cover;
+  background-position: center;
+  /* margin-bottom: 100px; */
+}
+
+.formulario{
+  height: auto;
+  width: 300px;
+  padding: 50px 0;
+  background-color: rgba(255, 202, 117, 0.7);
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.formulario label{
+  color: aliceblue;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.formulario input{
+  background-color: #ffffff;
+  width: 80%;
+  height: 30px;
+  border-style: none;
+  border-radius: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+.formulario h2{
+  color: #a7470b;
+  margin-bottom: 20px;
+}
+
+.formulario input:focus{
+  outline: none;
+}
+
+.formulario input::placeholder{
+  text-align: center;
+  opacity: 0.5;
+}
+
+.formulario .btn-iniciar{
+  background-color: #a7470b;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 30px;
+  width: 60%;
+  color: #ffffff;
+  border-radius: 20px;
+  font-size: large;
+  /* border-style: none;   */
+  border-color: #ffffff;
+
+}
+
+.formulario a{
+  color: #ffffff;
+  margin: 5px;
+  font-size: larger;
+  border-style: none;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.formulario a:hover{
+  color: #a7470b;
+  
+}
